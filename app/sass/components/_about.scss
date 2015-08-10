@@ -1,22 +1,21 @@
-.about{
+.about {
 	text-align: center;
 	font-family: Tahoma;
 	font-weight: 400;
 }
 
-.about__title{
+.about__title {
 	color:  #000000;
 	font-size: 35px;
 	display: inline-block;	
 }
 
-
-.about__list{
+.about__list {
 	padding-left: 0;
 	margin: 0 -26px;
 }
 
-.about__item{
+.about__item {
 	width: 295px;
 	display: inline-block;
 	vertical-align: top;
@@ -34,12 +33,12 @@
 .about__item--dev:before { background: url('../images/icon-dev.png') no-repeat center center;}
 .about__item--hotel:before { background: url('../images/icon-hotel.png') no-repeat center center;}
 
-.about__name{
+.about__name {
 	color:  #000000;
 	font-size: 30px;
 }
 
-.about__text{
+.about__text {
 	color:  #acacac;
 	font-size: 20px;
 }
@@ -47,7 +46,7 @@
 
 
 
-.mustache{
+.mustache {
 	overflow: hidden;
 	margin-bottom: 30px;
 }
@@ -64,13 +63,12 @@
 		position: absolute;
 		background-color:  #00aef0;
 		height: 1px;
-		width: 2000px;
+		width: 1000px;
 		color:blue;
 		top:50%;
 		margin-top: -1px;
 	}
 
-	&:before{left: 100%;}
-	&:after{right: 100%;}
-
+	&:before {left: 100%;}
+	&:after {right: 100%;}
 }
