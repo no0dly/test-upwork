@@ -1,48 +1,26 @@
 /* --------- mixins --------- */
 /* --------- variables --------- */
-/* --------- fonts --------- */
-<<<<<<< HEAD
-@font-face {
-  font-family: 'robotothin';
-  src: url("../fonts/roboto-thin/Roboto-Thin-webfont.eot");
-  src: url("../fonts/roboto-thin/Roboto-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-thin/Roboto-Thin-webfont.woff") format("woff"), url("../fonts/roboto-thin/Roboto-Thin-webfont.ttf") format("truetype"), url("../fonts/roboto-thin/Roboto-Thin-webfont.svg#robotothin") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-=======
->>>>>>> origin/naty
 /* --------- components --------- */
 html,
 body {
   height: 100%; }
 
 body {
-<<<<<<< HEAD
   background: #f4f4f4;
   color: #acacac;
   font-family: Tahoma, Verdana, sans-serif; }
-=======
-  background: url("../images/comppattern2.png");
-  font-family: "fira_sansbook";
-  background: #f4f4f4; }
->>>>>>> origin/naty
 
 /*sticky footer*/
-.wraper {
+.wrapper {
   min-height: 100%;
-<<<<<<< HEAD
   margin-bottom: -150px; }
-=======
-  margin-bottom: -83px; }
->>>>>>> origin/naty
 
-.wraper:after {
+.wrapper:after {
   content: "";
   display: block; }
 
-.wraper:after,
+.wrapper:after,
 .page-footer {
-<<<<<<< HEAD
   height: 150px; }
 
 /*end of sticky footer*/
@@ -58,7 +36,7 @@ body {
 
 .socials {
   padding-top: 21px;
-  margin-bottom: 24px; }
+  margin-bottom: 20px; }
 
 .socials__list,
 .navigation__list {
@@ -92,74 +70,26 @@ body {
   font-size: 0.6875em;
   line-height: 38px; }
 
-.socials__item .sprite {
+.socials__link {
   text-indent: 999999px;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 36px;
+  height: 36px;
+  display: block; }
+
+.socials__link-fb {
+  background: url("../images/icon-fb.png"); }
+
+.socials__link-tw {
+  background: url("../images/icon-tw.png"); }
+
+.socials__link-go {
+  background: url("../images/icon-go.png"); }
+
+.socials__link-p {
+  background: url("../images/icon-p.png"); }
 
 /*end of footer*/
-.label {
-  color: #959aa8;
-  font-size: 1.0625em; }
-
-.input-text {
-  border: 1px solid #48cbe8;
-  border-radius: 4px;
-  color: #48cbe8;
-  padding-left: 10px;
-  line-height: 41px;
-  background: #fff;
-  width: 190px; }
-
-.input-text::-webkit-input-placeholder {
-  color: #48cbe8;
-  font-size: 0.8125em;
-  font-family: "fira_sanslight"; }
-
-.input-text:-moz-placeholder {
-  color: #48cbe8;
-  font-size: 0.8125em;
-  font-family: "fira_sanslight"; }
-
-.error {
-  border-color: #f97e76;
-  background: rgba(249, 126, 118, 0.3); }
-
-@media screen and (max-width: 768px) {
-  .page-header__wrap,
-  .container,
-  .footer-cont {
-    max-width: 701px;
-    min-width: 600px; }
-  .container {
-    position: relative; }
-  .navigation {
-    position: absolute;
-    top: -60px;
-    right: 0;
-    width: 250px; }
-  .contacts {
-    display: none; }
-  .main-content {
-    float: none;
-    width: 95%;
-    margin: 0 auto; }
-  .navigation__trigger {
-    display: block;
-    width: 25px;
-    height: 21px;
-    background: url("../images/menu.png");
-    float: right;
-    text-indent: 999999px;
-    overflow: hidden;
-    margin-top: 12px;
-    margin-left: 58px; }
-    .navigation__trigger:hover {
-      opacity: .6;
-      transition: 0.5s; } }
-=======
-  height: 80px; }
-
-/*end of sticky footer*/
 .container {
   max-width: 1000px;
   margin: 0 auto; }
@@ -167,6 +97,67 @@ body {
 p {
   padding: 0;
   margin: 0; }
+
+.sprite {
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block; }
+
+.sprite-fb {
+  width: 47px;
+  height: 47px;
+  background-position: -40px -40px; }
+
+.sprite-gh {
+  width: 47px;
+  height: 47px;
+  background-position: -294px -40px; }
+
+.sprite-lock-ico {
+  width: 20px;
+  height: 32px;
+  background-position: -167px -167px; }
+
+.sprite-tw {
+  width: 47px;
+  height: 47px;
+  background-position: -167px -279px; }
+
+.sprite-vk {
+  width: 47px;
+  height: 47px;
+  background-position: -421px -40px; }
+
+.sprite-vk:hover {
+  background-position: -421px -167px; }
+
+.sprite-tw:hover {
+  background-position: -294px -279px; }
+
+.sprite-fb:hover {
+  background-position: -167px -40px; }
+
+.sprite-gh:hover {
+  background-position: -40px -167px; }
+
+.contacts__link-email {
+  background: #41b9d4 url("../images/mail-ico.png") no-repeat 20px 10px; }
+
+.contacts__link-cell {
+  background: #48cbe8 url("../images/cell-ico.png") no-repeat 20px 8px; }
+
+.contacts__link-skype {
+  background: #51daf8 url("../images/skype-ico.png") no-repeat 20px 8px;
+  border-radius: 0 0 4px 4px; }
+
+.bag-ico {
+  background: url("../images/bag-ico.png") no-repeat 0 center; }
+
+.magi-ico {
+  background: url("../images/magi-ico.png") no-repeat 0 center; }
+
+.doc-ico {
+  background: url("../images/doc-ico.png") no-repeat 10px center; }
 
 .page-navigation {
   font-family: Tahoma;
@@ -274,4 +265,3 @@ p {
     left: 100%; }
   .mustache__icon:after {
     right: 100%; }
->>>>>>> origin/naty
