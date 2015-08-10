@@ -7,9 +7,13 @@
 .about__title {
 	color:  #000000;
 	font-size: 35px;
-	display: inline-block;	
+	display: inline-block;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> beba22ee4bd24084c7e93779eda912d8dbaf5714
 .about__list {
 	padding-left: 0;
 	margin: 0 -26px;
@@ -21,7 +25,7 @@
 	vertical-align: top;
 	padding: 26px;
 
-	&:before{
+	&:before {
 		content: '';
 		display: inline-block;
 		width: 176px;
@@ -43,21 +47,24 @@
 	font-size: 20px;
 }
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> beba22ee4bd24084c7e93779eda912d8dbaf5714
 .mustache {
 	overflow: hidden;
 	margin-bottom: 30px;
 }
 
-.mustache__icon{
+.mustache__icon {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
 	padding: 0 5px;
 
-	&:before, &:after{
+	&:before, &:after {
 		content: '';
 		display: block;
 		position: absolute;
