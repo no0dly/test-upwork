@@ -40,15 +40,28 @@ body {
   display: inline-block; }
 
 .about__list {
-  padding-left: 0; }
+  padding-left: 0;
+  margin: 0 -26px; }
 
 .about__item {
   width: 295px;
   display: inline-block;
   vertical-align: top;
-  margin-left: 52px; }
-  .about__item:first-child {
-    margin-left: 0; }
+  padding: 26px; }
+  .about__item:before {
+    content: '';
+    display: inline-block;
+    width: 176px;
+    height: 110px; }
+
+.about__item--people:before {
+  background: url("../images/icon-people.png") no-repeat center; }
+
+.about__item--dev:before {
+  background: url("../images/icon-dev.png") no-repeat center; }
+
+.about__item--hotel:before {
+  background: url("../images/icon-hotel.png") no-repeat center; }
 
 .about__name {
   color: #000000;
@@ -58,15 +71,9 @@ body {
   color: #acacac;
   font-size: 20px; }
 
-.about__img {
-  height: 110px;
-  margin-bottom: 35px; }
-  .about__img > img {
-    max-height: 110px; }
-
 .mustache {
   overflow: hidden;
-  margin-bottom: 55px; }
+  margin-bottom: 30px; }
 
 .mustache__icon {
   display: inline-block;
