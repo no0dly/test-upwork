@@ -1,0 +1,66 @@
+[33mcommit beba22ee4bd24084c7e93779eda912d8dbaf5714[m
+Merge: b3e11eb a2c9466
+Author: Vadim <thenoodly@gmail.com>
+Date:   Mon Aug 10 10:58:49 2015 -0700
+
+    Merge pull request #3 from no0dly/master
+    
+    afa
+
+[33mcommit a2c9466dfef6b1b334010febb1bfe024bfdc97e6[m
+Author: Vadim Derman <thenoodly@gmail.com>
+Date:   Mon Aug 10 10:48:49 2015 -0700
+
+    second merge v.0.1
+
+[33mcommit 389cac881afc44ee68d8cb9b83416813b43219e2[m
+Merge: e6b3621 b3e11eb
+Author: Vadim Derman <thenoodly@gmail.com>
+Date:   Mon Aug 10 10:45:55 2015 -0700
+
+    second merge
+
+[33mcommit b3e11ebd10cb380b5a760f3576ae8f80c92c2b6e[m
+Author: nchuv <natalya_chuvi@mail.ru>
+Date:   Mon Aug 10 18:53:48 2015 +0300
+
+    navigation section
+
+[33mcommit 4b45b96ffa56f6c6b061d7cf6434fee42c3c4c94[m
+Author: nchuv <natalya_chuvi@mail.ru>
+Date:   Mon Aug 10 17:51:22 2015 +0300
+
+    fix about section
+
+[33mcommit 92303d89d3f46e842598280dd2deab0edf996d7f[m
+Author: nchuv <natalya_chuvi@mail.ru>
+Date:   Mon Aug 10 15:58:01 2015 +0300
+
+    about section
+
+[33mcommit e6b36218fd6565a475ce87d2d2aa8c60b7065911[m
+Author: Vadim Derman <thenoodly@gmail.com>
+Date:   Mon Aug 10 01:38:49 2015 -0700
+
+    footer almost done
+
+[33mcommit c92970b5290755ce92bb35955fcc95d144b07f8d[m
+Merge: adf810f f56cfb4
+Author: Vadim <thenoodly@gmail.com>
+Date:   Sun Aug 9 22:35:18 2015 -0700
+
+    Merge pull request #1 from no0dly/master
+    
+    jade without destanations
+
+[33mcommit f56cfb4123daf9ad84ba2cf7450222b54205dcb3[m
+Author: Vadim Derman <thenoodly@gmail.com>
+Date:   Sun Aug 9 22:32:47 2015 -0700
+
+    jade without destanations
+
+[33mcommit adf810fce95b535b05cdf976fb3a60461d7b3345[m
+Author: Vadim Derman <thenoodly@gmail.com>
+Date:   Sun Aug 9 18:30:23 2015 -0700
+
+    first commit
