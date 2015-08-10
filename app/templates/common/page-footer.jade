@@ -1,24 +1,23 @@
 footer.page-footer
-		.page-footer__wrap
-			.socials
-				ul.socials__list
-					each item in ['fb','tw','go','p']
-						li.socials__item
-							a(href="#" class="sprite sprite-" + item)= item
-			nav.navigation
-				ul.navigation__list
-					each item in ['About Us', 'Privacy Policy', 'Terms & Conditions', 'Contact Us', 'Cookie Policy']
-						li.navigation__item
-							a(href="#" class="navigation__link")= item
-		.copy
-			small.copy__text © 2015 HotelPriceRadar all rights reserved
-
+	.page-footer__wrap
+		.socials
+			ul.socials__list
+				each item in ['fb','tw','go','p']
+					li.socials__item
+						a(href="#" class="sprite sprite-" + item)= item
+		nav.navigation
+			ul.navigation__list
+				each item in ['About Us', 'Privacy Policy', 'Terms & Conditions', 'Contact Us', 'Cookie Policy']
+					li.navigation__item
+						a.navigation__link(href="#")= item
+	.copy © 2015 HotelPriceRadar all rights reserved
 
 
 <!-- build:js js/vendor.js --> 
 //bower:js
 script(src='/bower/modernizr/modernizr.js')
 script(src='/bower/jquery/dist/jquery.js')
+script(src='/bower/metro-ui-css/build/js/metro.js')
 //endbower
 <!-- endbuild -->
 

@@ -1,28 +1,28 @@
-.about{
+.about {
 	text-align: center;
 	font-family: Tahoma;
 	font-weight: 400;
 }
 
-.about__title{
+.about__title {
 	color:  #000000;
 	font-size: 35px;
-	display: inline-block;	
+	display: inline-block;
 }
 
 
-.about__list{
+.about__list {
 	padding-left: 0;
 	margin: 0 -26px;
 }
 
-.about__item{
+.about__item {
 	width: 295px;
 	display: inline-block;
 	vertical-align: top;
 	padding: 26px;
 
-	&:before{
+	&:before {
 		content: '';
 		display: inline-block;
 		width: 176px;
@@ -34,31 +34,28 @@
 .about__item--dev:before { background: url('../images/icon-dev.png') no-repeat center center;}
 .about__item--hotel:before { background: url('../images/icon-hotel.png') no-repeat center center;}
 
-.about__name{
+.about__name {
 	color:  #000000;
 	font-size: 30px;
 }
 
-.about__text{
+.about__text {
 	color:  #acacac;
 	font-size: 20px;
 }
 
-
-
-
-.mustache{
+.mustache {
 	overflow: hidden;
 	margin-bottom: 30px;
 }
 
-.mustache__icon{
+.mustache__icon {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
 	padding: 0 5px;
 
-	&:before, &:after{
+	&:before, &:after {
 		content: '';
 		display: block;
 		position: absolute;
