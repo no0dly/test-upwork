@@ -1,4 +1,5 @@
 footer.page-footer
+<<<<<<< HEAD
 	.page-footer__wrap
 		.socials
 			ul.socials__list
@@ -12,6 +13,21 @@ footer.page-footer
 						a.navigation__link(href="#")= item
 	.copy © 2015 HotelPriceRadar all rights reserved
 
+=======
+		.page-footer__wrap
+			.socials
+				ul.socials__list
+					each item in ['fb','tw','go','p']
+						li.socials__item
+							a(href="#" class="sprite sprite-" + item)= item
+			nav.navigation
+				ul.navigation__list
+					each item in ['About Us', 'Privacy Policy', 'Terms & Conditions', 'Contact Us', 'Cookie Policy']
+						li.navigation__item
+							a(href="#" class="navigation__link")= item
+		.copy
+			small.copy__text © 2015 HotelPriceRadar all rights reserved
+>>>>>>> origin/naty
 
 
 
