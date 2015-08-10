@@ -15,7 +15,12 @@
   "dependencies": {
     "jquery": "1.11",
     "normalize.css": "~3.0.3",
+<<<<<<< HEAD
     "jquery-placeholder": "~2.1.2",
     "modernizr": "~2.8.3"
+=======
+    "modernizr": "~2.8.3",
+    "metro-ui-css": "~3.0.9"
+>>>>>>> beba22ee4bd24084c7e93779eda912d8dbaf5714
   }
 }
