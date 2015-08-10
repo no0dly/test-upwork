@@ -1,0 +1,8 @@
+
+mixin tile (name, price)
+		img(src='images/destination/'+name+'.png' , alt="").destination__img
+		.destination__inner
+			p.destination__name= name
+			p.destination__text Rooms from 
+				span.destination__price= ' £'+price
+
