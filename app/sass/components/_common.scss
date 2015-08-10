@@ -4,35 +4,29 @@ body {
 }
 
 body {
-<<<<<<< HEAD
 	background: #f4f4f4;
 	color: #acacac;
 	font-family: Tahoma, Verdana, sans-serif;
-=======
-	background: url('../images/comppattern2.png');
-	font-family: "fira_sansbook";
-	background: #f4f4f4;
->>>>>>> origin/naty
 }
 
 /*sticky footer*/
-.wraper {
+
+.wrapper {
 	min-height: 100%;
 	margin-bottom: -150px;
 }
 
-.wraper:after {
+.wrapper:after {
 	content: "";
 	display: block;
 }
 
-.wraper:after,
+.wrapper:after,
 .page-footer {
 	height: 150px;
 }
 /*end of sticky footer*/
 
-<<<<<<< HEAD
 /*footer*/
 
 .page-footer {
@@ -96,16 +90,13 @@ body {
 	overflow: hidden;
 }
 /*end of footer*/
-=======
-.container{
+
+.container {
 	max-width: 1000px;
 	margin: 0 auto;
-	// border:1px dashed #ccc;
 }
 
-p{
+p {
 	padding: 0;
 	margin: 0;
 }
-
->>>>>>> origin/naty
