@@ -1,0 +1,74 @@
+.about{
+	text-align: center;
+	font-family: Tahoma;
+	font-weight: 400;
+
+
+}
+
+.about__title{
+	color:  #000000;
+	font-size: 35px;
+	display: inline-block;	
+}
+
+
+.about__list{
+	padding-left: 0;
+
+}
+
+.about__item{
+	width: 295px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 52px;
+
+	&:first-child{
+		margin-left: 0;
+	}
+}
+.about__name{
+	color:  #000000;
+	font-size: 30px;
+}
+
+.about__text{
+	color:  #acacac;
+	font-size: 20px;
+}
+
+.about__img{
+	height: 110px;
+	margin-bottom: 35px;
+	>img{max-height: 110px;}
+}
+
+
+.mustache{
+	overflow: hidden;
+	margin-bottom: 55px;
+}
+
+.mustache__icon{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding: 0 5px;
+
+	&:before, &:after{
+		content: '';
+		display: block;
+		position: absolute;
+		background-color:  #00aef0;
+		height: 1px;
+		width: 2000px;
+		color:blue;
+		top:50%;
+		margin-top: -1px;
+	}
+
+	&:before{left: 100%;}
+	&:after{right: 100%;}
+
+}

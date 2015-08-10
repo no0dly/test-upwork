@@ -6,6 +6,7 @@ body {
 body {
 	background: url('../images/comppattern2.png');
 	font-family: "fira_sansbook";
+	background: #f4f4f4;
 }
 
 /*sticky footer*/
@@ -25,3 +26,8 @@ body {
 }
 /*end of sticky footer*/
 
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	// border:1px dashed #ccc;
+}

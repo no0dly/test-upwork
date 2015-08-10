@@ -1,0 +1,89 @@
+/* --------- mixins --------- */
+/* --------- variables --------- */
+/* --------- fonts --------- */
+/* --------- components --------- */
+html,
+body {
+  height: 100%; }
+
+body {
+  background: url("../images/comppattern2.png");
+  font-family: "fira_sansbook";
+  background: #f4f4f4; }
+
+/*sticky footer*/
+.wraper {
+  min-height: 100%;
+  margin-bottom: -83px; }
+
+.wraper:after {
+  content: "";
+  display: block; }
+
+.wraper:after,
+.page-footer {
+  height: 80px; }
+
+/*end of sticky footer*/
+.container {
+  max-width: 1000px;
+  margin: 0 auto; }
+
+.about {
+  text-align: center;
+  font-family: Tahoma;
+  font-weight: 400; }
+
+.about__title {
+  color: #000000;
+  font-size: 35px;
+  display: inline-block; }
+
+.about__list {
+  padding-left: 0; }
+
+.about__item {
+  width: 295px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 52px; }
+  .about__item:first-child {
+    margin-left: 0; }
+
+.about__name {
+  color: #000000;
+  font-size: 30px; }
+
+.about__text {
+  color: #acacac;
+  font-size: 20px; }
+
+.about__img {
+  height: 110px;
+  margin-bottom: 35px; }
+  .about__img > img {
+    max-height: 110px; }
+
+.mustache {
+  overflow: hidden;
+  margin-bottom: 55px; }
+
+.mustache__icon {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  padding: 0 5px; }
+  .mustache__icon:before, .mustache__icon:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #00aef0;
+    height: 1px;
+    width: 2000px;
+    color: blue;
+    top: 50%;
+    margin-top: -1px; }
+  .mustache__icon:before {
+    left: 100%; }
+  .mustache__icon:after {
+    right: 100%; }

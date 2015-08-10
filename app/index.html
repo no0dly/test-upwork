@@ -17,6 +17,7 @@
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css css/main.min.css -->
+    <link rel="stylesheet" href="css/main.css">
     <!-- endbuild -->
     <!-- build:js js/modernizr.min.js -->
     <script src="/bower/modernizr/modernizr.js"></script>
@@ -103,23 +104,26 @@
         </section>
         <section class="about">
           <h2 class="about__title">A Little Bit About Us</h2>
-          <div class="mustache"></div>
-          <div class="about__columns">
-            <ul class="about__columns_list">
-              <li class="about__columns_item about__columns_item-people">
-                <h2 class="about__columns_title">Who are we?</h2>
-                <p class="about__columns_text">HotelPriceRadar is your go-to site for hotels and destinations and offers that will inspire you all year round.</p>
-              </li>
-              <li class="about__columns_item about__columns_item-device">
-                <h2 class="about__columns_title">How do we do it?</h2>
-                <p class="about__columns_text">Our innovative hotel search, curated deals and inspirational content make it simple to find cheap hotels.</p>
-              </li>
-              <li class="about__columns_item about__columns_item-hotel">
-                <h2 class="about__columns_title">Why come to us?</h2>
-                <p class="about__columns_text">Travellers rely on us for the latest prices and the best selection of cheap hotel deals.</p>
-              </li>
-            </ul>
+          <div class="mustache">
+            <div class="mustache__icon"><img src="../images/icon-pers.png" alt=""></div>
           </div>
+          <ul class="about__list">
+            <li class="about__item">
+              <div class="about__img"><img src="../images/icon-people.png" alt=""></div>
+              <h2 class="about__name">Who are we?</h2>
+              <p class="about__text">HotelPriceRadar is your go-to site for hotels and destinations and offers that will inspire you all year round.</p>
+            </li>
+            <li class="about__item">
+              <div class="about__img"><img src="../images/icon-dev.png" alt=""></div>
+              <h2 class="about__name">How do we do it?</h2>
+              <p class="about__text">Our innovative hotel search, curated deals and inspirational content make it simple to find cheap hotels.</p>
+            </li>
+            <li class="about__item">
+              <div class="about__img"><img src="../images/icon-hotel.png" alt=""></div>
+              <h2 class="about__name">Why come to us?</h2>
+              <p class="about__text">Travellers rely on us for the latest prices and the best selection of cheap hotel deals.</p>
+            </li>
+          </ul>
         </section>
       </div>
     </div>

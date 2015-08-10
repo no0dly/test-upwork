@@ -2,15 +2,23 @@ section.about
 	h2.about__title A Little Bit About Us
 
 	.mustache
+		.mustache__icon
+			img(src="../images/icon-pers.png", alt="")
 
-	.about__columns
-		ul.about__columns_list
-			li.about__columns_item.about__columns_item-people
-				h2.about__columns_title Who are we?
-				p.about__columns_text HotelPriceRadar is your go-to site for hotels and destinations and offers that will inspire you all year round.
-			li.about__columns_item.about__columns_item-device
-				h2.about__columns_title How do we do it?
-				p.about__columns_text Our innovative hotel search, curated deals and inspirational content make it simple to find cheap hotels.
-			li.about__columns_item.about__columns_item-hotel
-				h2.about__columns_title Why come to us?
-				p.about__columns_text Travellers rely on us for the latest prices and the best selection of cheap hotel deals.
+	
+	ul.about__list
+		li.about__item
+			.about__img
+				img(src="../images/icon-people.png", alt="")
+			h2.about__name Who are we?
+			p.about__text HotelPriceRadar is your go-to site for hotels and destinations and offers that will inspire you all year round.
+		li.about__item
+			.about__img
+				img(src="../images/icon-dev.png", alt="")
+			h2.about__name How do we do it?
+			p.about__text Our innovative hotel search, curated deals and inspirational content make it simple to find cheap hotels.
+		li.about__item
+			.about__img
+				img(src="../images/icon-hotel.png", alt="")
+			h2.about__name Why come to us?
+			p.about__text Travellers rely on us for the latest prices and the best selection of cheap hotel deals.
