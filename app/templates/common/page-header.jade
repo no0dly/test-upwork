@@ -1,0 +1,48 @@
+header.page-header
+	section.search
+		.search__header
+			.icon
+				img.icon__img(src="images/logo.png")
+				span.icon__text Hotel Price Radar
+			.money
+				a.money__link English (USD-$)
+		form.search__form(action="#" method="post")
+			legend.search__legend Search Compare Book
+			.inputs
+				input.inputs-text.search__input(type="text" name="where")
+				input.inputs-date.search__input(type="date" name="arrive")
+				input.inputs-date.search__input(type="date" name="depart")
+				select.inputs-select.search__input(name="guests")
+					option(value="1") 1
+					option(value="2") 2
+					option(value="3") 3
+					option(value="4") 4
+				input.inputs__submit.search__input(type="submit" value="SEARCH")
+		.search__footer
+			.partners
+				h2.partners__title Our partner companies
+				ul.partners__list
+					each item in ['agoda','booking','easy-to-book','happy']
+						li.partners__item
+							a(href="#" class="sprite sprite-" + item)= item
+		.search__addition
+			.circles
+				ul.circles__list
+					li.circles__item
+						p.circles__text The city of love.
+						a.circles__link.circles__link-paris(href="#") Paris
+					li.circles__item
+						p.circles__text The city that never sleeps.
+						a.circles__link.circles__link-new(href="#") New York
+					li.circles__item
+						p.circles__text The city that never sleeps.
+						a.circles__link.circles__link-london(href="#") London
+					li.circles__item
+						p.circles__text The capital of culture.
+						a.circles__link.circles__link-istanbul(href="#") Istanbul
+					li.circles__item
+						p.circles__text The city that never sleeps.
+						a.circles__link.circles__link-rome(href="#") Rome
+
+
+

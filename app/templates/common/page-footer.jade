@@ -1,0 +1,27 @@
+footer.page-footer
+	.page-footer__wrap
+		.socials
+			ul.socials__list
+				each item in ['fb','tw','go','p']
+					li.socials__item
+						a(href="#" class="sprite sprite-" + item)= item
+		nav.navigation
+			ul.navigation__list
+				each item in ['About Us', 'Privacy Policy', 'Terms & Conditions', 'Contact Us', 'Cookie Policy']
+					li.navigation__item
+						a(href="#" class="navigation__link")= item
+	.copy
+		small.copy__text © 2015 HotelPriceRadar all rights reserved
+
+
+
+<!-- build:js js/vendor.js --> 
+//bower:js
+script(src='/bower/modernizr/modernizr.js')
+script(src='/bower/jquery/dist/jquery.js')
+//endbower
+<!-- endbuild -->
+
+<!-- build:js js/main.js --> 
+script(src="js/main.js")
+<!-- endbuild -->
