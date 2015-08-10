@@ -4,38 +4,35 @@ body {
 }
 
 body {
-<<<<<<< HEAD
 	background: #f4f4f4;
 	color: #acacac;
 	font-family: Tahoma, Verdana, sans-serif;
-=======
-	background: url('../images/comppattern2.png');
-	font-family: "fira_sansbook";
-	background: #f4f4f4;
->>>>>>> origin/naty
 }
 
 /*sticky footer*/
-.wraper {
+.wrapper {
 	min-height: 100%;
 	margin-bottom: -150px;
 }
 
-.wraper:after {
+.wrapper:after {
 	content: "";
 	display: block;
 }
 
-.wraper:after,
+.wrapper:after,
 .page-footer {
 	height: 150px;
 }
 /*end of sticky footer*/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container {
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> a9af06eb91e69e6d715604ff854445cc19c2373d
 /*footer*/
 
 .page-footer {
@@ -51,7 +48,7 @@ body {
 
 .socials {
 	padding-top: 21px;
-	margin-bottom: 24px;
+	margin-bottom: 20px;
 }
 
 .socials__list,
@@ -94,12 +91,20 @@ body {
 	line-height: 38px;
 }
 
-.socials__item .sprite {
+.socials__link {
 	text-indent: 999999px;
 	overflow: hidden;
+	width: 36px;
+	height: 36px;
+	display: block;
 }
+
+.socials__link-fb { background: url('../images/icon-fb.png') }
+.socials__link-tw { background: url('../images/icon-tw.png') }
+.socials__link-go { background: url('../images/icon-go.png') }
+.socials__link-p { background: url('../images/icon-p.png') }
 /*end of footer*/
-=======
+
 .container{
 >>>>>>> beba22ee4bd24084c7e93779eda912d8dbaf5714
 	max-width: 1000px;
@@ -112,4 +117,3 @@ p {
 	margin: 0;
 }
 
->>>>>>> origin/naty
