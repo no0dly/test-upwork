@@ -30,9 +30,9 @@
 	}
 }
 
-.about__item--people:before {	background: url('../images/icon-people.png') no-repeat center;}
-.about__item--dev:before { background: url('../images/icon-dev.png') no-repeat center;}
-.about__item--hotel:before { background: url('../images/icon-hotel.png') no-repeat center;}
+.about__item--people:before {	background: url('../images/icon-people.png') no-repeat center center;}
+.about__item--dev:before { background: url('../images/icon-dev.png') no-repeat center center;}
+.about__item--hotel:before { background: url('../images/icon-hotel.png') no-repeat center center;}
 
 .about__name{
 	color:  #000000;

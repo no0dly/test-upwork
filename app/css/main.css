@@ -29,6 +29,51 @@ body {
   max-width: 1000px;
   margin: 0 auto; }
 
+p {
+  padding: 0;
+  margin: 0; }
+
+.page-navigation {
+  font-family: Tahoma;
+  font-weight: 400;
+  text-align: center; }
+
+.page-navigation__list {
+  padding-left: 0; }
+
+.page-navigation__item {
+  display: inline-block;
+  width: 299px;
+  border-left: 1px solid #c2c2c2;
+  padding: 0 15px;
+  margin-bottom: 30px; }
+  .page-navigation__item:first-child {
+    border-left: none; }
+  .page-navigation__item:before {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 60px; }
+
+.page-navigation__item--search:before {
+  background: url("../images/icon-mglass.png") no-repeat center; }
+
+.page-navigation__item--prices:before {
+  background: url("../images/icon-graf.png") no-repeat center; }
+
+.page-navigation__item--book:before {
+  background: url("../images/icon-book.png") no-repeat center; }
+
+.page-navigation__name {
+  color: #2f4e68;
+  font-size: 18px;
+  margin: 0 0 10px; }
+
+.page-navigation__text {
+  color: #acacac;
+  font-size: 15px;
+  margin-bottom: 10px; }
+
 .about {
   text-align: center;
   font-family: Tahoma;
@@ -55,13 +100,13 @@ body {
     height: 110px; }
 
 .about__item--people:before {
-  background: url("../images/icon-people.png") no-repeat center; }
+  background: url("../images/icon-people.png") no-repeat center center; }
 
 .about__item--dev:before {
-  background: url("../images/icon-dev.png") no-repeat center; }
+  background: url("../images/icon-dev.png") no-repeat center center; }
 
 .about__item--hotel:before {
-  background: url("../images/icon-hotel.png") no-repeat center; }
+  background: url("../images/icon-hotel.png") no-repeat center center; }
 
 .about__name {
   color: #000000;
