@@ -1,8 +1,25 @@
 
 mixin tile (name, price)
+	a(href="").destination__item
 		img(src='images/destination/'+name+'.png' , alt="").destination__img
 		.destination__inner
 			p.destination__name= name
 			p.destination__text Rooms from 
 				span.destination__price= ' £'+price
 
+
+mixin tile-large (name, price)
+	a(href="").destination__item.destination__item--large
+		img(src='images/destination/'+name+'.png' , alt="").destination__img
+		.destination__inner
+			p.destination__name= name
+			p.destination__text Rooms from 
+				span.destination__price= ' £'+price
+
+mixin tile-middle (name, price)
+	a(href="").destination__item.destination__item--middle
+		img(src='images/destination/'+name+'.png' , alt="").destination__img
+		.destination__inner
+			p.destination__name= name
+			p.destination__text Rooms from 
+				span.destination__price= ' £'+price

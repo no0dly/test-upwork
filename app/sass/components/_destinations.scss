@@ -22,16 +22,7 @@ $square: 200px;
 	background:#21b6a8;
 	box-sizing: border-box;
 }
-.info{
-	width: $square;
-	height: $square;
-	color:#ffffff;
- 	float: left;
-	border: 1px solid #f4f4f4 ;
-	box-sizing: border-box;
-	text-decoration: none;
 
-}
 
 
 
@@ -46,9 +37,16 @@ $square: 200px;
 	font-size: 25px;
 	font-weight: 700;
 }
-.info--fb{  background-color:  #3a5795; }
+.destination__item--blue{  background-color:  #3a5795; }
 .info--google {background-color:  #d84937;}
 .info--twitter {background-color:  #55acee;}
+.info--insta {background-color:  #125688;}
+.info--letter {background-color:  #ffba16;}
+.info--pint {background-color:  #e13138;}
+.destination__block--cyan{
+
+}
+
 
 .destination__item--large,
 .destination__block--big {

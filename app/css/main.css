@@ -232,15 +232,6 @@ s
   background: #21b6a8;
   box-sizing: border-box; }
 
-.info {
-  width: 200px;
-  height: 200px;
-  color: #ffffff;
-  float: left;
-  border: 1px solid #f4f4f4;
-  box-sizing: border-box;
-  text-decoration: none; }
-
 .info__text {
   font-size: 18px;
   font-weight: 400;
@@ -251,7 +242,7 @@ s
   font-size: 25px;
   font-weight: 700; }
 
-.info--fb {
+.destination__item--blue {
   background-color: #3a5795; }
 
 .info--google {
@@ -259,6 +250,15 @@ s
 
 .info--twitter {
   background-color: #55acee; }
+
+.info--insta {
+  background-color: #125688; }
+
+.info--letter {
+  background-color: #ffba16; }
+
+.info--pint {
+  background-color: #e13138; }
 
 .destination__item--large,
 .destination__block--big {
