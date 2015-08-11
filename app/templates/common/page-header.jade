@@ -5,14 +5,14 @@ header.page-header
 				img.icon__img(src="images/logo.png")
 				span.icon__text Hotel Price Radar
 			.money
-				a.money__link English (USD-$)
+				a.money__link(href="#") English (USD-$)
 		form.search__form(action="#" method="post")
-			legend.search__legend Search Compare Book
+			h2.search__legend Search Compare Book
 			.inputs
-				input.inputs-text.search__input(type="text" name="where")
-				input.inputs-date.search__input(type="date" name="arrive")
-				input.inputs-date.search__input(type="date" name="depart")
-				select.inputs-select.search__input(name="guests")
+				input.inputs-text.search__input(type="text" name="where" placeholder="Where would you like to go?")
+				input.inputs-date.search__input(type="text" name="arrive" placeholder="Arrive")
+				input.inputs-date.search__input(type="text" name="depart" placeholder="Depart")
+				select.inputs-select.search__input(name="guests" placeholder="Guests")
 					option(value="1") 1
 					option(value="2") 2
 					option(value="3") 3
@@ -22,27 +22,35 @@ header.page-header
 			.partners
 				h2.partners__title Our partner companies
 				ul.partners__list
-					each item in ['agoda','booking','easy-to-book','happy']
+					each item in ['agoda','booking','easy','happy']
 						li.partners__item
-							a(href="#" class="sprite sprite-" + item)= item
+							a(href="#" class="partners__link partners__link-" + item)= item
+								img.partners__img(src="../images/icon-" + item + ".png")
 		.search__addition
 			.circles
 				ul.circles__list
-					li.circles__item
-						p.circles__text The city of love.
-						a.circles__link.circles__link-paris(href="#") Paris
-					li.circles__item
-						p.circles__text The city that never sleeps.
-						a.circles__link.circles__link-new(href="#") New York
-					li.circles__item
-						p.circles__text The city that never sleeps.
-						a.circles__link.circles__link-london(href="#") London
-					li.circles__item
-						p.circles__text The capital of culture.
-						a.circles__link.circles__link-istanbul(href="#") Istanbul
-					li.circles__item
-						p.circles__text The city that never sleeps.
-						a.circles__link.circles__link-rome(href="#") Rome
+					li.circles__item.circles__item-paris
+						.circles__item_wrap
+							p.circles__text
+								span The 
+								|city of love.
+							a.circles__link.circles__link-paris(href="#") Paris
+					li.circles__item.circles__item-new
+						.circles__item_wrap
+							p.circles__text The city that never sleeps.
+							a.circles__link.circles__link-new(href="#") New York
+					li.circles__item.circles__item-london
+						.circles__item_wrap
+							p.circles__text The city that never sleeps.
+							a.circles__link.circles__link-london(href="#") London
+					li.circles__item.circles__item-istanbul
+						.circles__item_wrap
+							p.circles__text The capital of culture.
+							a.circles__link.circles__link-istanbul(href="#") Istanbul
+					li.circles__item.circles__item-rome
+						.circles__item_wrap
+							p.circles__text The city that never sleeps.
+							a.circles__link.circles__link-rome(href="#") Rome
 
 
 
