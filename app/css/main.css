@@ -461,6 +461,11 @@ s
   font-weight: 400;
   text-align: center; }
 
+.destination__img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%; }
+
 .destination__item {
   position: relative;
   overflow: hidden;
@@ -473,11 +478,13 @@ s
   box-sizing: border-box;
   text-decoration: none; }
 
-.info__text {
-  font-size: 18px;
-  font-weight: 400;
+.info {
   text-align: center;
   padding: 0 5px; }
+
+.info__text {
+  font-size: 18px;
+  font-weight: 400; }
 
 .info__text--large {
   font-size: 25px;
@@ -486,20 +493,38 @@ s
 .destination__item--blue {
   background-color: #3a5795; }
 
-.info--google {
+.destination__item--red {
   background-color: #d84937; }
 
-.info--twitter {
+.destination__item--lightblue {
   background-color: #55acee; }
 
-.info--insta {
+.destination__item--darkblue {
   background-color: #125688; }
 
-.info--letter {
+.destination__item--yellow {
   background-color: #ffba16; }
 
-.info--pint {
+.destination__item--bright-red {
   background-color: #e13138; }
+
+.destination__item--cyan {
+  background-color: #21b6a8; }
+
+.destination__item--pure-blue {
+  background-color: #0089f3; }
+
+.destination__item--purple {
+  background-color: #5a3773; }
+
+.destination__item--green {
+  background-color: #07d75f; }
+
+.destination__item--pure-cyan {
+  background-color: #00aee1; }
+
+.destination__item--orange {
+  background-color: #ff6600; }
 
 .destination__item--large,
 .destination__block--big {

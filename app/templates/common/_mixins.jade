@@ -23,3 +23,26 @@ mixin tile-middle (name, price)
 			p.destination__name= name
 			p.destination__text Rooms from 
 				span.destination__price= ' £'+price
+
+mixin tile-noimg (color, name, price)
+	a(href="" class=" destination__item destination__item--" + color)
+		.destination__inner.destination__inner--center
+			p.destination__name= name
+			p.destination__text Rooms from 
+				span.destination__price= ' £'+price
+
+mixin down (name,color, bold)
+	a(href="" class=" destination__item destination__item--" + color)
+		.destination__inner.destination__inner--center
+			p.info__text.info__text--large= bold
+			img(src='images/info/'+name+'.png' , alt="").info__img
+
+
+
+mixin follow (name,color, normal, bold)
+	a(href="" class=" destination__item destination__item--" + color)
+		.info
+			img(src='images/info/'+name+'.png' , alt="").info__img
+			p.info__text= normal
+			p.info__text.info__text--large= bold
+
