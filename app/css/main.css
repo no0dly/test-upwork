@@ -63,6 +63,8 @@ body {
   color: #fff;
   font-size: 0.9375em;
   text-decoration: none; }
+  .money__link:hover {
+    text-decoration: underline; }
 
 .search__form {
   max-width: 1110px;
@@ -102,6 +104,9 @@ body {
 
 .inputs__submit {
   float: right; }
+  .inputs__submit:hover {
+    background-color: #00AEBB;
+    transition: 0.3s; }
 
 .search__input:not(:first-child) {
   margin-left: 1%; }
@@ -134,11 +139,16 @@ body {
   padding-left: 53px;
   background-image: url("../images/icon-calendar.png");
   background-position: 10% center; }
+  .inputs-date:hover {
+    cursor: pointer; }
 
 .inputs-select {
-  padding-left: 53px;
-  background-image: url("../images/icon-pers-gray.png");
-  background-position: 10% center; }
+  padding-left: 40px;
+  background-image: url("../images/icon-pers-gray.png"), url("../images/icon-arrow.png");
+  background-position: 10% center, 90% center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
 
 .inputs__submit {
   width: 13%;
@@ -202,7 +212,7 @@ body {
   z-index: 0; }
 
 .circles__item-paris {
-  top: 18%;
+  top: 16%;
   left: 14%;
   background-color: rgba(84, 0, 255, 0.4); }
 
@@ -237,6 +247,9 @@ body {
 .circles__link {
   color: #fff;
   opacity: .7; }
+  .circles__link:hover {
+    opacity: 1;
+    text-decoration: none; }
 
 .circles__text span {
   display: block; }
@@ -283,6 +296,9 @@ body {
 .navigation__link {
   font-size: 0.9375em;
   text-decoration: none; }
+  .navigation__link:hover {
+    color: #00aef0;
+    transition: 0.3s; }
 
 .copy {
   font-size: 0.6875em;

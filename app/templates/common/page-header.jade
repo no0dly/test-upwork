@@ -10,13 +10,10 @@ header.page-header
 			h2.search__legend Search Compare Book
 			.inputs
 				input.inputs-text.search__input(type="text" name="where" placeholder="Where would you like to go?")
-				input.inputs-date.search__input(type="text" name="arrive" placeholder="Arrive")
-				input.inputs-date.search__input(type="text" name="depart" placeholder="Depart")
-				select.inputs-select.search__input(name="guests" placeholder="Guests")
-					option(value="1") 1
-					option(value="2") 2
-					option(value="3") 3
-					option(value="4") 4
+				input.inputs-date.search__input(type="text" name="arrive" placeholder="Arrive" )
+				input.inputs-date.search__input(type="text" name="depart" placeholder="Depart" disabled)
+				select.inputs-select.search__input(name="guests" value="Guests")
+					option(value="0" selected) Guests
 				input.inputs__submit.search__input(type="submit" value="SEARCH")
 		.search__footer
 			.partners
