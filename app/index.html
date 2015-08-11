@@ -33,19 +33,16 @@
         <section class="search">
           <div class="search__header">
             <div class="icon"><img src="images/logo.png" class="icon__img"><span class="icon__text">Hotel Price Radar</span></div>
-            <div class="money"><a class="money__link">English (USD-$)</a></div>
+            <div class="money"><a href="#" class="money__link">English (USD-$)</a></div>
           </div>
           <form action="#" method="post" class="search__form">
-            <legend class="search__legend">Search Compare Book</legend>
+            <h2 class="search__legend">Search Compare Book</h2>
             <div class="inputs">
-              <input type="text" name="where" class="inputs-text search__input">
-              <input type="date" name="arrive" class="inputs-date search__input">
-              <input type="date" name="depart" class="inputs-date search__input">
-              <select name="guests" class="inputs-select search__input">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+              <input type="text" name="where" placeholder="Where would you like to go?" class="inputs-text search__input">
+              <input type="text" name="arrive" placeholder="Arrive" class="inputs-date search__input">
+              <input type="text" name="depart" placeholder="Depart" disabled class="inputs-date search__input">
+              <select name="guests" value="Guests" class="inputs-select search__input">
+                <option value="0" selected>Guests</option>
               </select>
               <input type="submit" value="SEARCH" class="inputs__submit search__input">
             </div>
@@ -54,26 +51,44 @@
             <div class="partners">
               <h2 class="partners__title">Our partner companies</h2>
               <ul class="partners__list">
-                <li class="partners__item"><a href="#" class="sprite sprite-agoda">agoda</a></li>
-                <li class="partners__item"><a href="#" class="sprite sprite-booking">booking</a></li>
-                <li class="partners__item"><a href="#" class="sprite sprite-easy-to-book">easy-to-book</a></li>
-                <li class="partners__item"><a href="#" class="sprite sprite-happy">happy</a></li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link partners__link-agoda"><img src="../images/icon-agoda.png" class="partners__img"></a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link partners__link-booking"><img src="../images/icon-booking.png" class="partners__img"></a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link partners__link-easy"><img src="../images/icon-easy.png" class="partners__img"></a>
+                </li>
+                <li class="partners__item">
+                  <a href="#" class="partners__link partners__link-happy"><img src="../images/icon-happy.png" class="partners__img"></a>
+                </li>
               </ul>
             </div>
           </div>
           <div class="search__addition">
             <div class="circles">
               <ul class="circles__list">
-                <li class="circles__item">
-                  <p class="circles__text">The city of love.</p><a href="#" class="circles__link circles__link-paris">Paris</a></li>
-                <li class="circles__item">
-                  <p class="circles__text">The city that never sleeps.</p><a href="#" class="circles__link circles__link-new">New York</a></li>
-                <li class="circles__item">
-                  <p class="circles__text">The city that never sleeps.</p><a href="#" class="circles__link circles__link-london">London</a></li>
-                <li class="circles__item">
-                  <p class="circles__text">The capital of culture.</p><a href="#" class="circles__link circles__link-istanbul">Istanbul</a></li>
-                <li class="circles__item">
-                  <p class="circles__text">The city that never sleeps.</p><a href="#" class="circles__link circles__link-rome">Rome</a></li>
+                <li class="circles__item circles__item-paris">
+                  <div class="circles__item_wrap">
+                    <p class="circles__text"><span>The </span>city of love.</p><a href="#" class="circles__link circles__link-paris">Paris</a></div>
+                </li>
+                <li class="circles__item circles__item-new">
+                  <div class="circles__item_wrap">
+                    <p class="circles__text">The city that never sleeps.</p><a href="#" class="circles__link circles__link-new">New York</a></div>
+                </li>
+                <li class="circles__item circles__item-london">
+                  <div class="circles__item_wrap">
+                    <p class="circles__text">The city that never sleeps.</p><a href="#" class="circles__link circles__link-london">London</a></div>
+                </li>
+                <li class="circles__item circles__item-istanbul">
+                  <div class="circles__item_wrap">
+                    <p class="circles__text">The capital of culture.</p><a href="#" class="circles__link circles__link-istanbul">Istanbul</a></div>
+                </li>
+                <li class="circles__item circles__item-rome">
+                  <div class="circles__item_wrap">
+                    <p class="circles__text">The city that never sleeps.</p><a href="#" class="circles__link circles__link-rome">Rome</a></div>
+                </li>
               </ul>
             </div>
           </div>
