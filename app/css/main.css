@@ -602,7 +602,11 @@ s
   .inputs-text {
     padding-left: 5%; }
   .inputs-date {
-    padding-left: 6%; } }
+    padding-left: 6%; }
+  .inputs-select {
+    padding-left: 30px;
+    background-position: 10% center, 95% 52%;
+    font-size: 0.875em; } }
 
 @media screen and (max-width: 768px) {
   .search__input::-webkit-input-placeholder {
