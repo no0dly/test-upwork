@@ -68,7 +68,7 @@ body {
   max-width: 1110px;
   z-index: 1;
   text-align: center;
-  margin: 0 auto 150px;
+  margin: 0 auto 155px;
   position: relative; }
 
 .search__legend {
@@ -154,7 +154,8 @@ body {
   font-size: 1.25em;
   font-weight: normal;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 10px; }
 
 .partners__list {
   margin: 0;
@@ -168,7 +169,6 @@ body {
   margin-left: 20px; }
 
 .partners__link {
-  text-indent: 999999px;
   display: block; }
 
 .partners__link-agoda {
@@ -478,3 +478,33 @@ p {
     left: 100%; }
   .mustache__icon:after {
     right: 100%; }
+
+@media screen and (max-width: 1014px) {
+  .page-navigation__item--book {
+    border-left: none; } }
+
+@media screen and (max-width: 970px) {
+  .search__legend {
+    font-size: 4em; }
+  .circles__item-istanbul {
+    bottom: 19%; }
+  .search__form {
+    margin-bottom: 170px; }
+  .inputs-text {
+    padding-left: 5%; }
+  .inputs-date {
+    padding-left: 6%; } }
+
+@media screen and (max-width: 768px) {
+  .search__input::-webkit-input-placeholder {
+    font-size: 0.875em; }
+  .search__input::-moz-placeholder {
+    font-size: 0.875em; }
+  /* Firefox 19+ */
+  .search__input:-moz-placeholder {
+    font-size: 0.875em; }
+  /* Firefox 18- */
+  .search__input:-ms-input-placeholder {
+    font-size: 0.875em; }
+  .wrapper {
+    width: 768px; } }

@@ -1,0 +1,36 @@
+@media screen and ( max-width : 1014px) {
+	.page-navigation__item--book {
+		border-left: none;
+	}
+}
+
+
+@media screen and ( max-width : 970px) {
+	.search__legend {
+		font-size: 4em;
+	}
+	.circles__item-istanbul {
+		bottom: 19%;
+	}
+	.search__form {
+		margin-bottom: 170px;
+	}
+	.inputs-text {
+		padding-left: 5%;
+	}
+	.inputs-date {
+		padding-left: 6%;
+	}
+}
+
+@media screen and ( max-width : 768px) {
+	.search__input::-webkit-input-placeholder { font-size: 0.875em; }
+	.search__input::-moz-placeholder          { font-size: 0.875em; }/* Firefox 19+ */
+	.search__input:-moz-placeholder           { font-size: 0.875em; }/* Firefox 18- */
+	.search__input:-ms-input-placeholder      { font-size: 0.875em; }
+
+	.wrapper {
+		width: 768px;
+	}
+
+}
