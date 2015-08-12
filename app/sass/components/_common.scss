@@ -93,7 +93,6 @@ p {
 .page-footer__wrap {
 	background-color: #1a181d;
 	min-height: 112px;
-
 }
 
 .socials {
@@ -121,12 +120,6 @@ p {
 	margin-left: 24px;
 }
 
-.copy {
-	background-color: #2b2a30;
-	height: 38px;
-}
-
-
 .navigation__link {
 	font-size: 0.9375em;
 	color: #fff;
@@ -138,10 +131,11 @@ p {
 }
 
 .copy {
+	background-color: #2b2a30;
+	height: 38px;
 	font-size: 0.6875em;
 	line-height: 38px;
 }
-
 
 .socials__link {
 	text-indent: 999999px;

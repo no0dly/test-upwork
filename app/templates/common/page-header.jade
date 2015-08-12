@@ -10,6 +10,7 @@ header.page-header
 	section.search
 		.container
 			form.search__form(action="#" method="post")
+				
 				h2.search__legend Search Compare Book
 				.inputs
 					input.inputs-text.search__input(type="text" name="where" placeholder="Where would you like to go?")
@@ -19,31 +20,30 @@ header.page-header
 						option(value="0" selected) Guests
 					input.inputs__submit.search__input(type="submit" value="SEARCH")
 			
-				.search__addition
-					.circles
-						ul.circles__list
-							li.circles__item.circles__item-paris
-								.circles__item_wrap
-									p.circles__text
-										span The 
-										|city of love.
-									a.circles__link.circles__link-paris(href="#") Paris
-							li.circles__item.circles__item-new
-								.circles__item_wrap
-									p.circles__text The city that never sleeps.
-									a.circles__link.circles__link-new(href="#") New York
-							li.circles__item.circles__item-london
-								.circles__item_wrap
-									p.circles__text The city that never sleeps.
-									a.circles__link.circles__link-london(href="#") London
-							li.circles__item.circles__item-istanbul
-								.circles__item_wrap
-									p.circles__text The capital of culture.
-									a.circles__link.circles__link-istanbul(href="#") Istanbul
-							li.circles__item.circles__item-rome
-								.circles__item_wrap
-									p.circles__text The city that never sleeps.
-									a.circles__link.circles__link-rome(href="#") Rome
+				ul.circles__list
+					li.circles__item.circles__item-paris
+						.circles__item_wrap
+							p.circles__text
+								span The 
+								|city of love.
+							a.circles__link.circles__link-paris(href="#") Paris
+					li.circles__item.circles__item-new
+						.circles__item_wrap
+							p.circles__text The city that never sleeps.
+							a.circles__link.circles__link-new(href="#") New York
+					li.circles__item.circles__item-london
+						.circles__item_wrap
+							p.circles__text The city that never sleeps.
+							a.circles__link.circles__link-london(href="#") London
+					li.circles__item.circles__item-istanbul
+						.circles__item_wrap
+							p.circles__text The capital of culture.
+							a.circles__link.circles__link-istanbul(href="#") Istanbul
+					li.circles__item.circles__item-rome
+						.circles__item_wrap
+							p.circles__text The city that never sleeps.
+							a.circles__link.circles__link-rome(href="#") Rome
+					
 	.page-header__footer
 		.container
 			.partners

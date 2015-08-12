@@ -107,10 +107,6 @@ p {
 .navigation__item:not(:first-child) {
   margin-left: 24px; }
 
-.copy {
-  background-color: #2b2a30;
-  height: 38px; }
-
 .navigation__link {
   font-size: 0.9375em;
   color: #fff;
@@ -120,6 +116,8 @@ p {
     transition: 0.3s; }
 
 .copy {
+  background-color: #2b2a30;
+  height: 38px;
   font-size: 0.6875em;
   line-height: 38px; }
 
