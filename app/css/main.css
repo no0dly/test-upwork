@@ -653,7 +653,7 @@ p {
   .page-footer__wrap,
   .copy {
     min-width: 768px; }
-  .inputs-select {
+  .select__label {
     width: 18%; }
   .inputs-text {
     width: 35%; } }
