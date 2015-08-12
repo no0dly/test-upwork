@@ -13,4 +13,12 @@ var app = (function(){
 			duration: 500 
 		}
 	});
+	//init select
+	if ($('.inputs-select').length) {
+		$('.inputs-select').simpleSelect();
+	}
+
+	if ($('.selectbox__dropdown').length) {
+		$('.selectbox__dropdown').jScrollPane();
+	}
 }());

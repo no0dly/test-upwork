@@ -1,5 +1,12 @@
 /* --------- mixins --------- */
-/* --------- variables --------- */
+/* --------- fonts --------- */
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-thin/Roboto-Thin-webfont.eot");
+  src: url("../fonts/roboto-thin/Roboto-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-thin/Roboto-Thin-webfont.woff") format("woff"), url("../fonts/roboto-thin/Roboto-Thin-webfont.ttf") format("truetype"), url("../fonts/roboto-thin/Roboto-Thin-webfont.svg#robotothin") format("svg");
+  font-weight: 100;
+  font-style: normal; }
+
 /* --------- components --------- */
 html,
 body {
@@ -148,13 +155,13 @@ p {
   position: relative; }
 
 .search__legend {
-  font-family: 'Roboto Mono';
   font-weight: 100;
+  font-family: 'roboto';
   color: #fff;
   font-size: 5.5em;
   margin: 0 0 24px;
   padding: 0;
-  letter-spacing: -5px; }
+  letter-spacing: 2px; }
 
 .inputs {
   height: 70px;
@@ -207,8 +214,7 @@ p {
   background-image: url("../images/icon-perk.png");
   background-position: 3% center; }
 
-.inputs-date,
-.inputs-select {
+.inputs-date {
   width: 15%; }
 
 .inputs-date {
@@ -218,7 +224,17 @@ p {
   .inputs-date:hover {
     cursor: pointer; }
 
+.select__label {
+  width: 15%;
+  float: left;
+  height: 50px;
+  margin-left: 1%;
+  background-color: #fff;
+  overflow: hidden;
+  box-sizing: border-box; }
+
 .inputs-select {
+  width: 100%;
   padding-left: 40px;
   background-image: url("../images/icon-pers-gray.png"), url("../images/icon-arrow.png");
   background-position: 10% center, 90% center;
@@ -227,6 +243,10 @@ p {
   -moz-appearance: none;
   -o-appearance: none;
   appearance: none; }
+
+.no-touch .inputs-select {
+  width: 115%;
+  background-position: 10% center, 80% center; }
 
 .inputs__submit {
   width: 13%;

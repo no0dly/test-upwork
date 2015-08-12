@@ -11,7 +11,6 @@
     <meta name="author" content="Vadim D.">
     <link rel="shortcut icon" href="/favicon.ico" type="icon/x-icon">
     <link rel="icon" href="/favicon.ico" type="icon/x-icon">
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Mono:100' rel='stylesheet' type='text/css'>
     <!-- build:css css/vendor.min.css -->
     <!-- bower:css-->
     <link rel="stylesheet" href="/bower/normalize.css/normalize.css">
@@ -45,9 +44,11 @@
                 <input type="text" name="where" placeholder="Where would you like to go?" class="inputs-text search__input">
                 <input type="text" name="arrive" placeholder="Arrive" disabled class="inputs-date search__input">
                 <input type="text" name="depart" placeholder="Depart" disabled class="inputs-date search__input">
-                <select name="guests" value="Guests" class="inputs-select search__input">
-                  <option value="0" selected>Guests</option>
-                </select>
+                <label class="select__label">
+                  <select name="guests" value="Guests" class="inputs-select search__input">
+                    <option value="0" selected>Guests</option>
+                  </select>
+                </label>
                 <input type="submit" value="SEARCH" class="inputs__submit search__input">
               </div>
               <ul class="circles__list">

@@ -7,14 +7,13 @@
 }
 
 .search__legend {
-	font-family: 'Roboto Mono';
 	font-weight: 100;
-	// font-family: 'robotothin';	
+	font-family: 'roboto';
 	color: #fff;
 	font-size: 5.5em;
 	margin: 0 0 24px;
 	padding: 0;
-	letter-spacing: -5px;
+	letter-spacing: 2px;
 }
 
 .inputs {
@@ -59,8 +58,9 @@
 	background-position: 3% center;
 }
 
-.inputs-date,
-.inputs-select {	width: 15%;}
+.inputs-date{
+	width: 15%;
+}
 
 .inputs-date {
 	padding-left: 53px;
@@ -71,8 +71,18 @@
 		cursor: pointer;
 	}
 }
+.select__label {
+	width: 15%;
+	float: left;
+	height: 50px;
+	margin-left: 1%;
+	background-color: #fff;
+	overflow: hidden;
+	box-sizing: border-box;
+}
 
 .inputs-select {
+	width: 100%;
 	padding-left: 40px;
 	background-image: url("../images/icon-pers-gray.png"), url("../images/icon-arrow.png");
 	background-position: 10% center, 90% center;
@@ -81,6 +91,12 @@
 	-moz-appearance: none;
 	-o-appearance:none;
 	appearance: none;
+}
+
+// for ie
+.no-touch .inputs-select {
+	width: 115%;
+	background-position: 10% center, 80% center;
 }
 
 .inputs__submit {
