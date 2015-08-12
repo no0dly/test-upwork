@@ -3,111 +3,93 @@ section.destination
 	.destination__container
 
 		.destination__row
-			.destination__block.destination__block--big
+			.destination__block
 				+tile('New York', 100)
-				+tile('Prague', 100)
 				+tile('Dublin', 100)
+
+			.destination__block
+				+tile('Prague', 100)
 				+tile('Antalya', 100)
 
-			.destination__block.destination__block--small
+			.destination__block
 				+tile('Phuket Island', 100)
-				a(href="").destination__item.destination__item--blue
-					p.info__text Tips and photos all day long.
-					p.info__text.info__text--large Like us<wbr>on Facebook
-			
+				- var str = "Tips and photos all day long."
+				+follow ('facebook','blue', str, 'Follow us', 'on google+')
 			.destination__block.destination__block--big
 				+tile-large('Istanbul', 100)
-		
-		
-		.destination__row
-			.destination__block.destination__block--small
-				a(href="").destination__item.info--google
-					p.info__text Community and groups helping you all day.
-					p.info__text.info__text--large Like us</br>on google+
+
+			.destination__block
+				- var str = "Community and groups helpsing you all day."
+				+follow ('google','red', str, 'Like us', 'on Facebook')
 				+tile('Tenerife', 100)
-			
 			.destination__block.destination__block--big
 				+tile-large('Barcelona', 100)
 			.destination__block.destination__block--big
 				+tile-middle('Pattaya', 100)
-				a(href="").destination__item.info--twitter
-					p.info__text Twitting the best prices throughout the day.
-					p.info__text.info__text--large Like us</br>on Twitter
+				- var str = "Twitting the best prices throughout the day."
+				+follow ('twitter','lightblue', str,  'Follow us', 'on Twitter')
 				+tile('Sharm al Sheikh', 100)
 
-		.destination__row
-			.destination__block.destination__block--big
+			.destination__block
 				+tile('Dubai City', 100)
+				- var str = "Checkout the best photos of destinations."
+				+follow ('instagram','darkblue', str, 'Follow us', 'on Instagram')
+			.destination__block
 				+tile('Hurghada', 100)
-				a(href="").destination__item.info--insta
-					p.info__text Checkout the best  photos of destinations.
-					p.info__text.info__text--large Like us</br>on Instagram
 				+tile('Seattle', 100)
-
-			.destination__block.destination__block--small
+			.destination__block
 				+tile('Amsterdam', 100)
-				+tile('Batumi', 100)
-			
+				+tile-noimg ('orange', 'Batumi', 100)
 			.destination__block.destination__block--big
 				+tile-large('London', 100)
 
-		.destination__row
 			.destination__block.destination__block--big
 				+tile-large('Paris', 100)
 			.destination__block.destination__block--big
 				+tile-middle('Singapore', 100)
-				a(href="").destination__item.info--letter
-					p.info__text Deals and prices directly to your inbox.
-					p.info__text.info__text--large Subscribe to</br>our newsletter
+				- var str = "Deals and prices directly to your inbox."
+				+follow ('email','yellow', str, 'Subscribe to', 'our newsletter')
 				+tile('Nha Trang', 100)
-			.destination__block.destination__block--small
+			.destination__block
 				+tile('Samui Island', 100)
 				+tile('Budapest', 100)
 
-		.destination__row
-			.destination__block.destination__block--small
-				+tile('Budva', 100)
+			.destination__block
+				+tile-noimg ('pure-cyan', 'Budva', 100)
 				+tile('Odessa', 100)
 			.destination__block.destination__block--big
 				+tile-middle('Berlin', 100)
 				+tile('Venice', 100)
 				+tile('Marmaris', 100)
-			.destination__block.destination__block--big
-				+tile('Milan', 100)
+			.destination__block
 				+tile('Vienna', 100)
-				a(href="").destination__item.info--pint
-					p.info__text Thousands of pins to see and enjoy.
-					p.info__text.info__text--large Subscribe to</br>our Pinterest
+				- var str = "Thousands of pins to see and enjoy."
+				+follow ('pinterest','bright-red', str, 'Follow us', 'on Pinterest')
+			.destination__block
+				+tile('Milan', 100)
 				+tile('Tivat', 100)
 			
-			
-		.destination__row
 			.destination__block.destination__block--big
 				+tile-large('Bangkok', 100)
-			.destination__block.destination__block--small
+			.destination__block
 				+tile('Rio', 100)
-				+tile('Glendalough', 100)
+				+tile-noimg ('bright-yellow', 'Glendalough', 100)
 			.destination__block.destination__block--big
 				+tile-large('Rome', 100)
 
-		.destination__row
 			.destination__block.destination__block--big
 				+tile('Alanya', 100)
-				a(href="").destination__item.info--pint
-					p.info__text Thousands of pins to see and enjoy.
-					p.info__text.info__text--large Subscribe to</br>our Pinterest
+				- var str = "Didn’t find your choice? Try our custom search."
+				+follow ('search','cyan', str, 'Hotel', 'Search')
 				+tile-middle('Bay Of Island', 100)
-			.destination__block.destination__block--small
+			.destination__block
 				+tile('Cologne', 100)
-				a(href="").destination__item.info--pint
-					p.info__text Thousands of pins to see and enjoy.
-					p.info__text.info__text--large Subscribe to</br>our Pinterest
-			.destination__block.destination__block--big
+				- var str = "What we do and how we work."
+				+follow ('people','pure-blue', str,  'Learn', 'About us')
+			.destination__block
 				+tile('Belek', 100)
-				a(href="").destination__item.info--pint
-					p.info__text Thousands of pins to see and enjoy.
-					p.info__text.info__text--large Subscribe to</br>our Pinterest
 				+tile('Tbilisi', 100)
-				a(href="").destination__item.info--pint
-					p.info__text Thousands of pins to see and enjoy.
-					p.info__text.info__text--large Subscribe to</br>our Pinterest
+			.destination__block
+				+tile-noimg('purple','Kemer', 100)
+				- var str = 'See More Destinations'
+				+down('down','green', str)

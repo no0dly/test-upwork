@@ -26,6 +26,7 @@
 		padding-left: 30px;
 		background-position: 10% center, 95% 52%;
 		font-size: 0.875em;
+		
 	}
 }
 
@@ -38,9 +39,15 @@
 	.wrapper {
 		width: 768px;
 	}
-	
-	// .inputs-select {
-	// 	padding-left: 25px;
-	// 	// background-position: 10% center, 95% 52%;
-	// }
+	.page-footer__wrap,
+	.copy {
+		min-width: 768px;
+	}
+	.inputs-select {
+		width: 18%;
+	}
+
+	.inputs-text {
+		width: 35%;
+	}
 }

@@ -1,0 +1,91 @@
+.search__form {
+	max-width: 1110px;
+	z-index: 1;
+	text-align: center;
+	margin: 0 auto 155px;
+	position: relative;
+}
+
+.search__legend {
+	color: #fff;
+	font-size: 5.5em;
+	font-family: 'robotothin';
+	margin: 0 0 32px;
+	padding: 0;
+}
+
+.inputs {
+	height: 70px;
+	width: 100%;
+	background: rgba(0,0,0,0.25);
+	padding: 10px 12px;
+	box-sizing: border-box;
+
+	@include clearfix;
+}
+
+.search__input {
+	height: 100%;
+	box-sizing: border-box;
+	line-height: 100%;
+	background: #fff;
+	background-repeat: no-repeat;
+	border: none;
+	float: left;
+}
+
+.inputs__submit {
+	float: right;
+
+	&:hover {
+		background-color: #00AEBB;
+		transition: 0.3s;
+	}
+}
+
+.search__input:not(:first-child) {
+	margin-left: 1%;
+}
+
+.search__input::-webkit-input-placeholder { padding-top: 2px; }
+.search__input::-moz-placeholder          { padding-top: 2px; }/* Firefox 19+ */
+.search__input:-moz-placeholder           { padding-top: 2px; }/* Firefox 18- */
+.search__input:-ms-input-placeholder      { padding-top: 2px; }
+
+.inputs-text {
+	width: 38%;
+	padding-left: 40px;
+	background-image: url("../images/icon-perk.png");
+	background-position: 3% center;
+}
+
+.inputs-date,
+.inputs-select {
+	width: 15%;
+}
+
+.inputs-date {
+	padding-left: 53px;
+	background-image: url("../images/icon-calendar.png");
+	background-position: 10% center;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.inputs-select {
+	padding-left: 40px;
+	background-image: url("../images/icon-pers-gray.png"), url("../images/icon-arrow.png");
+	background-position: 10% center, 90% center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.inputs__submit {
+	width: 13%;
+	background-color: #00aef0;
+	color: #fff;
+	font-size: 1.125em;
+}
