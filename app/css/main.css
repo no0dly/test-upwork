@@ -70,7 +70,8 @@ p {
 .money__link {
   color: #fff;
   font-size: 0.9375em;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 700; }
   .money__link:hover {
     text-decoration: underline; }
 
@@ -356,14 +357,15 @@ p {
   text-align: center; }
 
 .page-navigation__list {
-  padding-left: 0; }
+  padding-left: 0;
+  margin: 15px 0 0; }
 
 .page-navigation__item {
   display: inline-block;
   width: 299px;
   border-left: 1px solid #c2c2c2;
   padding: 0 15px;
-  margin-bottom: 30px; }
+  margin-bottom: 34px; }
   .page-navigation__item:first-child {
     border-left: none; }
   .page-navigation__item:before {
@@ -394,7 +396,8 @@ p {
 .destination__container {
   width: 100%;
   font-family: Tahoma;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 68px; }
 
 .destination__row {
   max-width: 1000px;
@@ -416,7 +419,8 @@ p {
   color: #21b6a8;
   font-size: 35px;
   font-weight: 400;
-  text-align: center; }
+  text-align: center;
+  margin: 0 0 15px; }
 
 .destination__img {
   display: block;
@@ -529,12 +533,15 @@ p {
   text-align: center;
   font-family: Tahoma;
   font-weight: 400;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 120px; }
 
 .about__title {
   color: #000000;
   font-size: 35px;
-  display: inline-block; }
+  font-weight: 400;
+  display: inline-block;
+  margin: 0 0 10px; }
 
 .about__list {
   padding-left: 0;
@@ -549,7 +556,8 @@ p {
     content: '';
     display: inline-block;
     width: 176px;
-    height: 110px; }
+    height: 110px;
+    margin-bottom: 10px; }
 
 .about__item--people:before {
   background: url("../images/icon-people.png") no-repeat center center; }
@@ -562,15 +570,16 @@ p {
 
 .about__name {
   color: #000000;
-  font-size: 30px; }
+  font-size: 30px;
+  font-weight: 400; }
 
 .about__text {
   color: #acacac;
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: 400; }
 
-s
 .mustache {
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
 
 .mustache__icon {
   display: inline-block;

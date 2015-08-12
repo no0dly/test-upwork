@@ -3,12 +3,15 @@
 	font-family: Tahoma;
 	font-weight: 400;
 	overflow: hidden;
+	margin-bottom: 120px;
 }
 
 .about__title {
 	color:  #000000;
 	font-size: 35px;
+	font-weight: 400;
 	display: inline-block;
+	margin: 0 0 10px;
 }
 
 
@@ -28,6 +31,7 @@
 		display: inline-block;
 		width: 176px;
 		height: 110px;
+		margin-bottom: 10px;
 	}
 }
 
@@ -38,15 +42,17 @@
 .about__name {
 	color:  #000000;
 	font-size: 30px;
+	font-weight: 400;
 }
 
 .about__text {
 	color:  #acacac;
 	font-size: 20px;
+	font-weight: 400;
 }
-s
+
 .mustache {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .mustache__icon {
