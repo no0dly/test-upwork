@@ -33,7 +33,7 @@ mixin tile-noimg (color, name, price)
 
 mixin down (name,color, bold)
 	a(href="" class=" destination__item destination__item--" + color)
-		.destination__inner.destination__inner--center
+		.destination__inner.destination__inner--down
 			p.info__text.info__text--large= bold
 			img(src='images/info/'+name+'.png' , alt="").info__img
 

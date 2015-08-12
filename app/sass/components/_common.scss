@@ -9,6 +9,16 @@ body {
 	font-family: Tahoma, Verdana, sans-serif;
 }
 
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 /*sticky footer*/
 
 .wrapper {
@@ -35,13 +45,12 @@ body {
 	height: 653px;
 	position: relative;
 	background-size: cover;
+
+	.container {max-width: 1112px;}
+	
 }
 
-.search {
-	padding: 0 45px;
-}
-
-.search__header {
+.page-header__header {
 	width: 100%;
 	padding-top: 27px;
 	@include clearfix;
@@ -54,145 +63,23 @@ body {
 	height: 45px;
 }
 
-.icon__img {
-	width: 100%;
-}
+.icon__img { width: 100%; }
 
-.icon__text {
-	@include hide;
-}
+.icon__text { @include hide; }
 
-.money {
-	float: right;
-}
+.money { float : right; }
 
 .money__link {
 	color: #fff;
 	font-size: 0.9375em;
 	text-decoration: none;
 
-	&:hover {
-		text-decoration: underline;
-	}
+	&:hover {text-decoration: underline;	}
 }
-
-
-
-.search__footer {
-	text-align: center;
-}
-
-.partners__title {
-	color: #fff;
-	font-size: 1.25em;
-	font-weight: normal;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 10px;
-}
-
-.partners__list {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.partners__item {
-	display: inline-block;
-}
-
-.partners__item:not(:first-child) {
-	margin-left: 20px;
-}
-
-.partners__link {
-	display: block;
-}
-
-.partners__link-agoda{ width: 90px; height: 36px;}
-.partners__link-booking{ width: 144px; height: 25px;}
-.partners__link-easy{ width: 143px; height: 25px;}
-.partners__link-happy{ width: 128px; height: 36px;}
-
-.partners__img {
-	width: 100%;
-	vertical-align: middle;
-}
-
-.circles__item {
-	position: absolute;
-	width: 134px;
-	height: 134px;
-	@include border-radius(50%);
-	display: block;
-	z-index: 0;
-}
-
-.circles__item-paris {
-	top: 16%;
-	left: 14%;
-	background-color: rgba(84,0,255, 0.4);
-}
-
-.circles__item-new {
-	top: 12%;
-	right: 35%;
-	background-color: rgba(255,0,0, 0.4);
-}
-
-.circles__item-london {
-	bottom: 13%;
-	left: 6%;
-	background-color: rgba(255,60,0, 0.4);
-}
-
-.circles__item-istanbul {
-	bottom: 14%;
-	left: 50%;
-	background-color: rgba(255,234,0, 0.4);
-}
-
-.circles__item-rome {
-	bottom: 9%;
-	right: 11%;;
-	background-color: rgba(7,215,95, 0.4);
-}
-
-.circles__item_wrap {
-	text-align: center;
-	padding: 32px 10px;
-}
-
-.circles__text {
-	color: #fff;
-	margin-bottom: 15px;
-}
-
-.circles__link {
-	color: #fff;
-	opacity: .7;
-
-	&:hover {
-		opacity: 1;
-		text-decoration: none;
-	}
-}
-.circles__link.circles__link-istanbul {
-	color: #eff625;
-	opacity: 1;
-}
-
-.circles__link.circles__link-rome {
-	color: #1afc54;
-	opacity: 1;
-}
-
-.circles__text span {
-	display: block;
-}
-
 
 /*end of page header*/
+
+
 
 /*footer*/
 
@@ -200,11 +87,13 @@ body {
 	width: 100%;
 	height: 150px;
 	text-align: center;
+	color: #fff;
 }
 
 .page-footer__wrap {
 	background-color: #1a181d;
 	min-height: 112px;
+
 }
 
 .socials {
@@ -237,13 +126,10 @@ body {
 	height: 38px;
 }
 
-.copy,
-.navigation__link {
-	color: #fff;
-}
 
 .navigation__link {
 	font-size: 0.9375em;
+	color: #fff;
 	text-decoration: none;
 	&:hover {
 		color: #00aef0;
@@ -265,20 +151,11 @@ body {
 	display: block;
 }
 
-.socials__link-fb { background: url('../images/icon-fb.png') }
-.socials__link-tw { background: url('../images/icon-tw.png') }
-.socials__link-go { background: url('../images/icon-go.png') }
-.socials__link-p { background: url('../images/icon-p.png') }
+.socials__link-fb { background: url('../images/icon-fb.png') no-repeat; }
+.socials__link-tw { background: url('../images/icon-tw.png') no-repeat; }
+.socials__link-go { background: url('../images/icon-go.png') no-repeat; }
+.socials__link-p { background: url('../images/icon-p.png') no-repeat; }
 
 
 
-.container{
-	max-width: 1000px;
-	margin: 0 auto;
-}
-
-p {
-	padding: 0;
-	margin: 0;
-}
 

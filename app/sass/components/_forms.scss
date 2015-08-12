@@ -1,17 +1,20 @@
 .search__form {
 	max-width: 1110px;
-	z-index: 1;
 	text-align: center;
 	margin: 0 auto 155px;
+	z-index: 1;
 	position: relative;
 }
 
 .search__legend {
+	font-family: 'Roboto Mono';
+	font-weight: 100;
+	// font-family: 'robotothin';	
 	color: #fff;
 	font-size: 5.5em;
-	font-family: 'robotothin';
-	margin: 0 0 32px;
+	margin: 0 0 24px;
 	padding: 0;
+	letter-spacing: -5px;
 }
 
 .inputs {
@@ -20,7 +23,6 @@
 	background: rgba(0,0,0,0.25);
 	padding: 10px 12px;
 	box-sizing: border-box;
-
 	@include clearfix;
 }
 
@@ -43,14 +45,12 @@
 	}
 }
 
-.search__input:not(:first-child) {
-	margin-left: 1%;
-}
+.search__input:not(:first-child) {margin-left: 1%;}
 
 .search__input::-webkit-input-placeholder { padding-top: 2px; }
-.search__input::-moz-placeholder          { padding-top: 2px; }/* Firefox 19+ */
-.search__input:-moz-placeholder           { padding-top: 2px; }/* Firefox 18- */
-.search__input:-ms-input-placeholder      { padding-top: 2px; }
+.search__input::-moz-placeholder { padding-top: 2px; }/* Firefox 19+ */
+.search__input:-moz-placeholder { padding-top: 2px; }/* Firefox 18- */
+.search__input:-ms-input-placeholder { padding-top: 2px; }
 
 .inputs-text {
 	width: 38%;
@@ -60,9 +60,7 @@
 }
 
 .inputs-date,
-.inputs-select {
-	width: 15%;
-}
+.inputs-select {	width: 15%;}
 
 .inputs-date {
 	padding-left: 53px;
@@ -91,3 +89,74 @@
 	color: #fff;
 	font-size: 1.125em;
 }
+
+
+
+.circles__item {
+	position: absolute;
+	width: 134px;
+	height: 134px;
+	@include border-radius(50%);
+	display: block;
+	z-index: 0;
+}
+
+.circles__item-paris {
+	top: -42%;
+	left: 3%;
+	background-color: rgba(84,0,255, 0.4);
+}
+
+.circles__item-new {
+	top: -58%;
+	right: 26%;
+	background-color: rgba(255,0,0, 0.4);
+}
+
+.circles__item-london {
+	bottom: -73%;
+	left: 0%;
+	background-color: rgba(255,60,0, 0.4);
+}
+
+.circles__item-istanbul {
+	bottom: -71%;
+	left: 51%;
+	background-color: rgba(255,234,0, 0.4);
+}
+
+.circles__item-rome {
+	bottom: -85%;
+	right: 0%;;
+	background-color: rgba(7,215,95, 0.4);
+}
+
+.circles__item_wrap {
+	text-align: center;
+	padding: 32px 10px;
+}
+
+.circles__text {
+	color:  #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 5px;
+
+	span { display: block; }
+}
+
+.circles__link {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 700;
+	text-decoration: underline;
+
+	&:hover {text-decoration: none;}
+}
+
+.circles__link-paris { color: #9576fe;}
+.circles__link-new { color: #f77d7d;}
+.circles__link-istanbul {color: #eff624;}
+.circles__link-rome {color: #19fc54;}
+.circles__link-london {color: #fe977e;}
+

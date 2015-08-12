@@ -1,0 +1,39 @@
+
+.partners { text-align: center; }
+
+.partners__title {
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.partners__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.partners__item {
+	display: inline-block;
+}
+
+.partners__item:not(:first-child) {
+	margin-left: 20px;
+}
+
+.partners__link {
+	display: block;
+}
+
+.partners__link-agoda{ width: 90px; height: 36px;}
+.partners__link-booking{ width: 144px; height: 25px;}
+.partners__link-easy{ width: 143px; height: 25px;}
+.partners__link-happy{ width: 128px; height: 36px;}
+
+.partners__img {
+	width: 100%;
+	vertical-align: middle;
+}
