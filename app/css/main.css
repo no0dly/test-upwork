@@ -162,6 +162,14 @@ body {
     opacity: 1;
     text-decoration: none; }
 
+.circles__link.circles__link-istanbul {
+  color: #eff625;
+  opacity: 1; }
+
+.circles__link.circles__link-rome {
+  color: #1afc54;
+  opacity: 1; }
+
 .circles__text span {
   display: block; }
 
@@ -620,7 +628,9 @@ s
   background-image: url("../images/icon-pers-gray.png"), url("../images/icon-arrow.png");
   background-position: 10% center, 90% center;
   -webkit-appearance: none;
+  -ms-appearance: none;
   -moz-appearance: none;
+  -o-appearance: none;
   appearance: none; }
 
 .inputs__submit {

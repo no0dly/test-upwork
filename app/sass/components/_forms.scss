@@ -79,7 +79,9 @@
 	background-image: url("../images/icon-pers-gray.png"), url("../images/icon-arrow.png");
 	background-position: 10% center, 90% center;
 	-webkit-appearance: none;
+	-ms-appearance: none;
 	-moz-appearance: none;
+	-o-appearance:none;
 	appearance: none;
 }
 
