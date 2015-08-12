@@ -14,6 +14,3 @@ var app = (function(){
 		}
 	});
 }());
-$(document).ready(function() {
-	
-});
